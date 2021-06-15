@@ -1,0 +1,47 @@
+.data-box {
+  max-width: 780px;
+
+  .main-btn {
+    margin-top: 62px;
+    align-self: flex-start;
+  }
+
+  .select-wrapp {
+    align-self: flex-start;
+  }
+}
+
+.data-form {
+  legend {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: $color-header;
+  }
+
+  input {
+    height: 50px;
+  }
+}
+
+.select-wrapp {
+  display: flex;
+
+  .nice-select {
+    margin-left: 23px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+
+  .option {
+    font-family: $font-family--lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+}
+

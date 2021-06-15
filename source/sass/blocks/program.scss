@@ -1,0 +1,133 @@
+.profram-box__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000000
+}
+
+
+.profram-box__item {
+  font-family: $font-family--lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: $color-header;
+  width: 12.7%;
+  text-align: center;
+
+
+  &--big {
+    width: 59.8%;
+    text-align: left;
+  }
+
+
+}
+
+.program-item__link {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  padding: 0 15px;
+}
+
+.program-item__coll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.5%;
+
+  &--big {
+    width: 60%;
+    justify-content: flex-start;
+  }
+}
+
+.program-item__name {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: $color-header;
+}
+
+.program-item__type, .program-item__status {
+  font-family: $font-family--lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.program-item__status svg {
+  fill:transparent;
+}
+
+.program-item {
+  border-bottom: 1px solid #000000;
+
+  &:hover {
+    background-color: $bg--hover-item;
+
+    .program-item__type, .program-item__status, .program-item__name {
+      color: $color-menu-alt;
+    }
+
+    .program-item__btn {
+      color: $color-text--blue;
+      background: $bg--main;
+    }
+  }
+}
+
+.program-item__btn {
+  width: 100%;
+  height: 30px;
+  font-family: $font-family--lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  color: $color-header--rev;
+  background-color: $bg--hover-item;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-more {
+  max-width: 1250px;
+  margin: 20px auto 0;
+}
+
+.program-more__text {
+  font-family: $font-family--lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: $color-text;
+  margin-bottom: 42px;
+}
+
+.program-more__video {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video {
+  max-width: 100%;
+  max-height: 480px;
+}
+
+
+

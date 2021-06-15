@@ -1,0 +1,188 @@
+.container--cerf {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cerf-wrapp {
+  position: relative;
+  max-width: 850px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg width='376' height='91' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 77.6L375.5 0H0v77.6z' fill='%2301499B'/%3E%3Cpath d='M241.5 0H0v90.2L241.5 0z' fill='%23FA454C'/%3E%3C/svg%3E");
+    width: 375px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+
+
+  &::after {
+    position: absolute;
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg width='235' height='244' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.2 243.8h145.5c28.2-26.6 56.5-52.2 62.4-53.6 12.3-3.1-.8-137.3-.8-137.3L.3 243.8z' fill='%2301499B'/%3E%3Cpath d='M234.7.5c-46.4 85.9-127.1 243.1-127.1 243.1h127.1V.6z' fill='%23FA454C'/%3E%3C/svg%3E");
+    width: 234px;
+    height: 250px;
+    right: 0;
+    bottom: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+
+.cerf {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  font-family: Montserrat;
+  position: relative;
+
+  &::before {
+    background-image: url("data:image/svg+xml,%3Csvg width='103' height='107' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.3 99.7V.7H.8V106.1H103v-6.4H7.3z' fill='%2301499B'/%3E%3Cpath d='M20.4 30.3h-6.9v63.1h6.9V30.3z' fill='%23F5483A'/%3E%3C/svg%3E");
+    width: 100px;
+    height: 100px;
+    content: '';
+    position: absolute;
+    left: -1px;
+    bottom: -1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &::after {
+    background-image: url("data:image/svg+xml,%3Csvg width='103' height='106' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M96 6.5v99h6.5V0H.2v6.5H96z' fill='%2301499B'/%3E%3Cpath d='M90.3 15.5h-6.8v40.7h6.8V15.5z' fill='%23F5483A'/%3E%3C/svg%3E");
+    width: 100px;
+    height: 100px;
+    content: '';
+    position: absolute;
+    right: -3px;
+    top: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.cerf__title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #161616;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.cerf__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.2512px;
+  line-height: 12px;
+  color: #161616;
+  padding-bottom: 8px;
+  position: relative;
+  margin-bottom: 23px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 70%;
+    background: #01499B;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.cerf__ho {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.4384px;
+  line-height: 14px;
+  text-align: center;
+  color: #161616;
+  margin-bottom: 15px;
+}
+
+.cerf__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 53.1663px;
+  line-height: 65px;
+  text-align: center;
+  color: #161616;
+  margin-bottom: 15px;
+}
+
+.cerf__text {
+  max-width: 600px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 10px;
+  color: #161616;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.cerf-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 40px;
+  align-items: center;
+}
+
+.cerf-bottom__image {
+  max-width: 90px;
+  width: 100%;
+}
+
+.cerf-date {
+  max-width: 145px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cerf-date__value {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0 20px 5px;
+  border-bottom: 1px solid #01499B;
+  color: #161616;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.cerf-date__name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5367px;
+  line-height: 13px;
+
+  color: #161616;
+}

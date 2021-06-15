@@ -1,0 +1,76 @@
+.feedback-box {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.main-info {
+  min-height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-info__title {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: $color-header;
+  text-align: center;
+
+  span {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.feedback-form {
+
+  legend {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: $color-header;
+  }
+
+  input {
+    border: 1px solid rgba(1, 73, 155, 0.5);
+
+    &::placeholder {
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  textarea {
+    width: 100%;
+    resize: none;
+    padding: 14px 10px;
+    border: 1px solid rgba(1, 73, 155, 0.5);
+    outline: none;
+
+    &::placeholder {
+      font-family: $font-family;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+}
+
+.submit-btn {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  color: $color-text--blue;
+  width: 100%;
+  height: 48px;
+  border: 2px solid rgba(1, 73, 155, 0.5);
+}
