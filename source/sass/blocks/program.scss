@@ -69,14 +69,23 @@
 }
 
 .program-item__status svg {
-  fill:transparent;
+  fill: transparent;
+}
+
+.item-panel .program-more {
+  padding-bottom: 44px;
 }
 
 .program-item {
   border-bottom: 1px solid #000000;
+  cursor: pointer;
 
   &:hover {
     background-color: $bg--hover-item;
+
+    .item-panel {
+      background-color: #fff;
+    }
 
     .program-item__type, .program-item__status, .program-item__name {
       color: $color-menu-alt;

@@ -225,8 +225,8 @@
   }
 
   .top-page__title{
-    font-size: 25px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 23px;
     text-align: center;
   }
 
@@ -408,7 +408,7 @@
 
     &--big {
       width: 59%;
-      max-width: 195px;
+      max-width: 277px;
     }
   }
 
@@ -418,14 +418,14 @@
 
     &--big {
       width: 60%;
-      max-width: 195px;
+      max-width: 277px;
     }
   }
 
   .top-page--program {
     .top-page__title {
       text-align: left;
-      max-width: 65%;
+      max-width: 60%;
     }
   }
 
@@ -532,6 +532,18 @@
 
   .header-top {
     padding: 7px 0 8px;
+  }
+
+
+
+  .program-item__coll:last-child {
+    svg {
+      display:none;
+    }
+  }
+
+  .program-item__arrow {
+    display: none;
   }
 
 
@@ -664,8 +676,9 @@
   }
 
   .top-page__title{
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 17px;
+    line-height: 21px;
+
     text-align: center;
   }
 
@@ -680,7 +693,7 @@
   .main-form legend {
     font-size: 14px;
     line-height: 17px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
   }
 
   .forgot-link {
@@ -706,7 +719,7 @@
   }
 
   .main-form fieldset {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .feedback-form input {
@@ -761,11 +774,22 @@
 
   .long-form__wrapp {
     max-width: initial;
+    padding-top: 30px;
+
+    legend {
+      margin-bottom: 10px;
+      font-family: Exo 2;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+    }
   }
 
   .long-form__wrapp {
     font-size: 12px;
     line-height: 14px;
+
+
   }
 
   .long-form input+input {
@@ -802,6 +826,11 @@
 
   .main-btn{
     align-self: center;
+    margin-bottom: 25px;
+  }
+
+  .main-form__btn {
+    margin-top: 15px;
   }
 
   .regestration-sec {
@@ -868,9 +897,9 @@
     margin: 0 -15px 0 -15px;
   }
 
-  // .program-item {
-  //   border: none;
-  // }
+  .program-item {
+    font-size: 12px;
+  }
 
   .top-page__name {
     display: none;
@@ -902,6 +931,9 @@
     &--big {
       width: 59%;
       max-width: 195px;
+    }
+    &:nth-child(3) {
+      width: 22%;
     }
   }
 
@@ -1085,6 +1117,29 @@
 
   .cerf-bottom {
     grid-gap: 15px;
+  }
+
+  .long-form__title {
+    border-width: 4px;
+    font-size: 22px;
+  }
+
+
+
+  .program-item__coll:last-child {
+    svg {
+      display:none;
+    }
+  }
+
+  .program-item__arrow {
+    display: none;
+  }
+
+  .data-form {
+    .main-btn {
+      margin-top: 42px;
+    }
   }
 
 
